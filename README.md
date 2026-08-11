@@ -1,6 +1,6 @@
 # Open Container Initiative Runtime Specification
 
-[![GitHub Actions status](https://github.com/opencontainers/runtime-spec/workflows/build/badge.svg)](https://github.com/opencontainers/runtime-spec/actions?query=workflow%3Abuild)
+[![GitHub Actions status](https://github.com/Unity-Billal-mesloub/runtime-spec/workflows/build/badge.svg)](https://github.com/Unity-Billal-mesloub/runtime-spec/actions?query=workflow%3Abuild)
 
 The [Open Container Initiative][oci] develops specifications for standards on Operating System process and application containers.
 
@@ -35,13 +35,6 @@ Example use cases include sophisticated network configuration, volume garbage co
 
 Runtime developers can build runtime implementations that run OCI-compliant bundles and container configuration, containing low-level OS and host-specific details, on a particular platform.
 
-## Contributing
-
-Development happens on GitHub for the spec.
-Issues are used for bugs and actionable items and longer discussions can happen on the [mailing list](#mailing-list).
-
-The specification and code is licensed under the Apache 2.0 license found in the [LICENSE](./LICENSE) file.
-
 ### Discuss your design
 
 The project welcomes submissions, but please let everyone know what you are working on.
@@ -52,12 +45,6 @@ It also guarantees that the design is sound before code is written; a GitHub pul
 
 Typos and grammatical errors can go straight to a pull-request.
 When in doubt, start on the [mailing-list](#mailing-list).
-
-### Meetings
-
-Please see the [OCI org repository README](https://github.com/opencontainers/org#meetings) for the most up-to-date
-information on OCI contributor and maintainer meeting schedules. You can also find links to meeting agendas and
-minutes for all prior meetings.
 
 ### Mailing List
 
@@ -140,15 +127,3 @@ Read more on [How to Write a Git Commit Message][how-to-git-commit] or the Discu
 8. When possible, one keyword to scope the change in the subject (i.e. "README: ...", "runtime: ...")
 
 
-[charter]: https://github.com/opencontainers/tob/blob/master/CHARTER.md
-[code-of-conduct]: https://github.com/opencontainers/org/blob/master/CODE_OF_CONDUCT.md
-[dev-list]: https://groups.google.com/a/opencontainers.org/forum/#!forum/dev
-[how-to-git-commit]: https://cbea.ms/git-commit/
-[iso-week]: https://en.wikipedia.org/wiki/ISO_week_date#Calculating_the_week_number_of_a_given_date
-[minutes]: https://ircbot.wl.linuxfoundation.org/meetings/opencontainers/
-[oci]: https://www.opencontainers.org
-[rfc5545]: https://tools.ietf.org/html/rfc5545
-[runtime-wiki]: https://github.com/opencontainers/runtime-spec/wiki
-[uberconference]: https://www.uberconference.com/opencontainers
-
-[git-commit.1]: https://git-scm.com/docs/git-commit
